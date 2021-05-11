@@ -7,6 +7,6 @@ Stack.push(1, 1);
 Stack.push(2, 3);
 test(1, Stack.pop() === 2);
 test(2, Stack.pop() === null);
-test(3, Stack.pop(2) === 1);
+test(3, Stack.pop(2) === null);
 test(4, Stack.pop(1) === 1);
 [_correct, _failed, _failedTests];
